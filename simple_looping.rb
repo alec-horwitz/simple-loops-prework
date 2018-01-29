@@ -37,7 +37,7 @@ end
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-  iterator 0
+  iterator = 0
   until (iterator == number_of_times)
     puts("Welcome to Flatiron School's Web Development Course!")
     iterator += 1
