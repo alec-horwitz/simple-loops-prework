@@ -10,8 +10,8 @@ def loop_iterator(number_of_times)
   #  phrase and break when the counter hits the appropriate number...
   iterator = 0
   loop do
-    iterator += 1
     iterator == number_of_times ? break : puts("Welcome to Flatiron School's Web Development Course!")
+    iterator += 1
   end
 end
 
